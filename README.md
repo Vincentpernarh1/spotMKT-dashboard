@@ -1,4 +1,4 @@
-# 📊 spotMKT Dashboard
+# 📊 SPOTMKT Dashboard
 
 **spotMKT Dashboard** é uma aplicação web moderna, desenvolvida para exibir métricas de marketing digital de forma visual, simples e responsiva.
 
