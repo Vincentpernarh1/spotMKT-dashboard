@@ -3,12 +3,13 @@ import { useNavigate } from "react-router-dom";
 import userdetails from "../../components/security.json"; // JSON com login/senha
 import '../Pages/Styles/Login.css'; // Importando o CSS para estilização
 
-
 const Login = () => {
   const [user, setUser] = useState("");
   const [pass, setPass] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
+
+
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -17,6 +18,11 @@ const Login = () => {
     } else {
       setError("Usuário ou senha inválidos");
     }
+  };
+
+  const handleResetPassword = () => {
+    // Por enquanto só alerta, mas pode redirecionar para uma página ou abrir modal
+    alert("Link de redefinição de senha foi enviado para seu e-mail.");
   };
 
   return (
@@ -54,6 +60,10 @@ const Login = () => {
           <button type="submit" className="login-button">
             Entrar
           </button>
+
+          <p className="reset-password" onClick={handleResetPassword}>
+            Esqueceu a senha?
+          </p>
         </form>
       </div>
     </div>
