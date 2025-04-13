@@ -57,7 +57,7 @@ Ao clicar no card de **Configurações**, o usuário pode acessar e editar suas 
 
 A interface é 100% responsiva e se adapta bem a telas de **computadores, tablets e celulares**.
 
-| Notebook | Tablet | Celular |
+| Tablet | Celular | Celular |
 |----------|--------|---------|
 | ![1](https://github.com/user-attachments/assets/4b8c285b-8ad8-43c2-ad85-7d6e682572f3) | ![2](https://github.com/user-attachments/assets/5599dbfa-334c-4e70-8ebb-c560484bf86d) | ![3](https://github.com/user-attachments/assets/cce83842-625b-491b-8afc-6c35e190971c) |
 
