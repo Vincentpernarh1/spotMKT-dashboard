@@ -139,7 +139,10 @@ const Dashboard = () => {
             </button>
           </div>
           <p className="section-description">
-            Formulário de nova demanda indisponível no momento.
+            <li>
+            📌 Ajustes no site institucional - Em andamento</li>
+            <li>🆕 Criação de campanha Google Ads - Pendente</li>
+            
           </p>
         </section>
 
